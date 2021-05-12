@@ -1,0 +1,76 @@
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  box-shadow: 0 15px 30 px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  background-color: rgba(48, 52, 63, 0.5);
+  border-radius: 10px;
+  margin: 30px 0 25px 0;
+}
+
+body {
+  background: hsla(0, 1%, 61%, 1);
+  background: linear-gradient(45deg, hsla(0, 1%, 61%, 1) 0%, hsla(0, 0%, 92%, 1) 47%, hsla(0, 1%, 61%, 1) 100%);
+  background: -moz-linear-gradient(45deg, hsla(0, 1%, 61%, 1) 0%, hsla(0, 0%, 92%, 1) 47%, hsla(0, 1%, 61%, 1) 100%);
+  background: -webkit-linear-gradient(45deg, hsla(0, 1%, 61%, 1) 0%, hsla(0, 0%, 92%, 1) 47%, hsla(0, 1%, 61%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9C9A9A", endColorstr="#EAEAEA", GradientType=1 );
+  font-family: Georgia, serif;
+  text-align: center;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  color: #222222;
+  font-size: 30px;
+  line-height: 15px;
+}
+
+h2, h3 {
+  font-family: 'Newsreader', serif;
+  color: #e7e7e7;
+  font-size: 25px;
+  line-height: 10px;
+}
+
+p {
+  padding-bottom: 5px;
+}
+
+a.btn {
+  background-color: white;
+  color: #222222;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.img2 {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+li i{
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 20px;
+}
